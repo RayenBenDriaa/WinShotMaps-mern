@@ -1,0 +1,63 @@
+.style {
+  height: 1080px;
+  background-color: teal;
+  background-image: url("../assets/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mywidth {
+  width: 50%;
+  margin: auto !important;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: black !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: black !important;
+}
+.map-container {
+  height: 90vh;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #ffffff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  margin-top: 100px !important ;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+.rowC{display:flex; flex-direction:row;}
+.distance-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  }
+   
+  .distance-container > * {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  display: block;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  }
